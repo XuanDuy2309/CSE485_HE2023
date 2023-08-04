@@ -1,5 +1,5 @@
 <?php
-$controller = isset($_GET['c']) ? $_GET['c'] : 'employees';
+$controller = isset($_GET['c']) ? $_GET['c'] : 'employee';
 $action = isset($_GET['a']) ? $_GET['a'] : 'index';
 
 $controller = ucfirst($controller);

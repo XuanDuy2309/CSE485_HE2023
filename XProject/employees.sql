@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `employees`
+-- Database: `employee`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `employees`
+-- Table structure for table `employee`
 --
 
 CREATE TABLE `employees` (
@@ -35,7 +35,7 @@ CREATE TABLE `employees` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `employees`
+-- Dumping data for table `employee`
 --
 
 INSERT INTO `employees` (`id`, `name`, `address`, `salary`) VALUES
@@ -95,7 +95,7 @@ INSERT INTO `employees` (`id`, `name`, `address`, `salary`) VALUES
 --
 
 --
--- Indexes for table `employees`
+-- Indexes for table `employee`
 --
 ALTER TABLE `employees`
   ADD PRIMARY KEY (`id`);

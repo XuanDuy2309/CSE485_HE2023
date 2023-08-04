@@ -36,7 +36,7 @@
                         <td><?= $row->getAddress();?></td>
                         <td><?= $row->getSalary();?></td>
                         <td>
-                            <a href="index.php?c=employees&a=detail&id=<?=$row->getId();?>">
+                            <a href="index.php?c=employee&a=detail&id=<?=$row->getId();?>">
                                 <i class="bi bi-eye-fill"></i>
                             </a>
                         </td>
