@@ -34,8 +34,8 @@ class employeesRepository {
             $stmt->execute();
             $stmt->setFetchMode(PDO::FETCH_ASSOC);
             $result = $stmt->fetch();
-            return $result;
-
+            $em = new employees($result['id'],$result['name'],$result['address'],$result['salary']);
+            return $em;
         }catch (PDOException $e){
             return null;
         }
